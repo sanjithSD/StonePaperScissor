@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow`s Empire</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Assets/b4a93385-c20e-474e-91ea-3534a4fccd66-removebg-preview (1).png" type="image/x-icon">
+</head>
+<body>
+        <video id="shadowFightVideo" autoplay muted  loop >
+            <source src="./Assets/shadowfight.mp4" type="video/mp4">
+        </video>
+        
+       <div class="container">
+        <div class="box" id="box">
+            <img src="./Assets/tiebg.png" alt="tie" class="res" id="tie">
+            <img src="./Assets/youwinbg.png" alt="win" class="res" id="win">
+            <img src="./Assets/youlosebg.png" alt="lose" class="res" id="lose">
+            <video id="shadowFightVideo1" autoplay muted  loop >
+                <source src="./Assets/shadowfight.mp4" type="video/mp4">
+            </video>
+            <div class="heading">
+                <h1>Stone Paper Scissor</h1>
+            </div>
+           
+            <div class="statics noneguy" >
+                <div class="userside" id="UserDiv">
+                    <img  id="userimageset">
+                </div>
+                <div class="vs">VS</div>
+                <div class="computerside" id="pcDiv">
+                    <img id="pcimageset" >
+                </div>
+            </div>
+            <div class="results noneguy">
+                <div class="userresult"><h3 id="userDisplay" >Shadow-></h3></div>
+                <div class="wol"><h3 id="display">Results</h3></div>
+                <div class="computerresult"><h3 id="pcDisplay">&lt;-Titan</h3></div>
+            </div>
+            <div class="spcdiv noneguy">
+                <div class="btn" id="stonediv"><img src="./Assets/stone.webp" alt="stone" id="stone" class=" commonimages"></div>
+                <div class="btn" id="paperdiv"><img src="./Assets/paper.webp" alt="paper" id="paper" class=" commonimages"></div>
+                <div class="btn" id="scissordiv"><img src="./Assets/scissor.webp" alt="scissor" id="scissor" class=" commonimages"></div>
+            </div>
+        </div>
+       </div>
+    <script src="./index.js"></script>
+</body>
+</html>
