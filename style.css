@@ -21,6 +21,7 @@ body{
     height: 60px;
     top: 10px;
     left:10px;
+    z-index: 20;
 }
 #shadowFightVideo{
     position: fixed;
@@ -214,10 +215,11 @@ body{
 }
 #logo{
     position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 18%;
-    left:43%;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left:10px;
+  
 }
 .res{
     position: absolute;
@@ -260,6 +262,7 @@ body{
     padding: 20px 0;
     margin-bottom: 50px;
     box-shadow: 0 0 20px black;
+    font-size: 8px;
 }
 .results{
  margin: 40px 0;
